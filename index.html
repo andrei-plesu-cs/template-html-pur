@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap 4 style css -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Template component -->
+    <div class="template_main_wrapper">
+      <!-- Header -->
+      <div class="padded-container">
+        <div class="invoice-header">
+          <div class="invoice-header-inner">
+            <div class="template_my_col" style="flex: 1;">
+              <div class="template_main_logo">
+                <img
+                  height="180"
+                  alt="Getica Software"
+                  src="images/getica_logo.svg"
+                />
+              </div>
+            </div>
+            <div class="template_header_under_col">
+              <div class="invoice_header_contract_number text-center">
+                BZGET 362
+              </div>
+              <div class="template_header_under_col_1">
+                <div>
+                  <div>
+                    <div class="template_header_under_col_1_elem">
+                      Data emitere
+                    </div>
+                    <div style="margin-top: '-5px'; font-size: 1.3rem;">
+                      17/05/2019
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <div class="template_header_under_col_1_elem">
+                      Data scadenta
+                    </div>
+                    <div style="margin-top: -5px; font-size: 1.3rem;">
+                      17/05/2019
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <div class="template_header_under_col_1_elem">
+                      Cota TVA
+                    </div>
+                    <div style="margin-top: -5px; font-size: 1.3rem;">
+                      19.00%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Aligned data -->
+      <div class="padded-container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div>
+              <div class="data_header">Furnizor</div>
+              <div class="data_header_subtitle">Municipiul Bucuresti</div>
+              <div class="aligned-list-divider"></div>
+              <div class="row">
+                <div class="col-lg-3 aligned-data-left-col">
+                  Email
+                </div>
+                <div class="col-lg-9 aligned-data-right-col">
+                  getica@example.ro
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div>
+              <div class="data_header">Furnizor</div>
+              <div class="data_header_subtitle">Municipiul Bucuresti</div>
+              <div class="aligned-list-divider"></div>
+              <div class="row">
+                <div class="col-lg-3 aligned-data-left-col">
+                  Email
+                </div>
+                <div class="col-lg-9 aligned-data-right-col">
+                  getica@example.ro
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Table component -->
+      <div class="padded-container">
+        <!-- Simple table component -->
+        <div
+          id="template_table"
+          class="table-wrapper"
+          style="background: white;"
+        >
+          <!-- Table body -->
+          <table style="width: 100%;">
+            <thead>
+              <tr class="table_header">
+                <th style="font-size: 1.3rem;">nr. crit.</th>
+                <th style="font-size: 1.3rem;">
+                  denumirea produselor sau a serviciilor
+                </th>
+                <th style="font-size: 1.3rem;">u.m.</th>
+                <th style="font-size: 1.3rem;">cantitate</th>
+                <th style="font-size: 1.3rem;">pret unitar</th>
+                <th style="font-size: 1.3rem;">valoare</th>
+                <th style="font-size: 1.3rem;">valoare TVA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="template_first_row">
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+              </tr>
+              <tr class="template_last_row">
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                <td class="template_2" style="font-size: 1.4rem;">Row</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr style="font-size: 1.4rem;">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Total</td>
+                <td>100</td>
+              </tr>
+            </tfoot>
+          </table>
+
+          <!-- Table footer -->
+        </div>
+      </div>
+
+      <div class="padded-container" style="background: white;">
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title">
+              Informatii privind drepturile clientilor vulnerabili din motive de
+              sanatate
+            </div>
+            <div class="data_section_content">
+              <div>
+                În cazul în care,la un loc de consum locuiește o persoană care
+                necesită menţinerea înviaţă prin aparate electrice,intrând
+                astfel în categoria clienţilor vulnerabili ,iar titularul
+                contractului de furnizare / distribuţie aduce la cunoştinţă
+                operatorului de distribuție şi prezintă o confirmare medicală de
+                la un medics pecialist, vizată şi de medicul de familie, în
+                acest sens,operatorul de distribuție este obligat:
+              </div>
+              <ul style="margin: 0; margin-top: 15px;">
+                <li>
+                  să înregistreze adresa / locul de consum drept o instalaţie
+                  specială , din motive umanitare
+                </li>
+                <li>
+                  să ia toate măsurile pentru evitarea deconectării
+                  respectivului loc de consum
+                </li>
+                <li>
+                  să rezolve cu prioritate întreruperile neplanificate care
+                  afectează respectivul loc de consum
+                </li>
+                <li>
+                  să asigure o sursă suplimentară de alimentare a respectivului
+                  loc de consum
+                </li>
+                <li>să ofere utilizatorului un număr de telefon de urgenţă</li>
+                <li>
+                  dacă este cazul, să permită ca relaţia cu clientul vulnerabil
+                  respectiv să se poată desfăşura prin intermediul unei terţe
+                  persoane,împuternicite de titularul contractului de furnizare
+                  / distribuţie încheiat pentru locul de consum respectiv
+                </li>
+              </ul>
+              <div class="legal_reference_data">(art 12 din Standard)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title"></div>
+            <div class="data_section_content">
+              <div>
+                În cazul clienţilor vulnerabili din motive de sănătate
+                operatorul de distribuție informează furnizorii acestora cu
+                privire la data, ora, precum şi durata întreruperilor necesare,
+                înscris sau telefonic, cu minimum 15 zile lucrătoare înainte de
+                data de începere a lucrărilor și retransmite anunţul cu privire
+                la data întreruperii cu 5 zile lucrătoare înainte de data de
+                începere a lucrărilor
+                <div class="legal_reference_data">(art 12 din Standard)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title"></div>
+            <div class="data_section_content">
+              <div>
+                Dacă este cazul, furnizorul şi operatorul de rețea pot conveni
+                ca relaţia cu clientul vulnerabil din motive de sănătate (
+                autocitire a contorului, transmiterea facturii pe numele şi
+                adresa de corespondenţă fizică sau electronică a persoanei
+                respective, notificări/ sesizări etc.) să se poată desfăşura
+                prin intermediul unei terţe persoane, împuternicită de titularul
+                locului de consum.
+              </div>
+              <div class="legal_reference_data">(art.58 din Regulament)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title"></div>
+            <div class="data_section_content">
+              <div>
+                <div>
+                  Furnizorii şi /sau, după caz, operatorul de rețea,
+                  corespunzător condiţiilor contractuale, au obligația:
+                </div>
+                <ul style="margin-top: 15px;">
+                  <li>
+                    să protejeze la întreruperea alimentării cu energie
+                    electrică clienţii vulnerabili
+                  </li>
+                  <li>
+                    să intermedieze execuţii de lucrări la consumatorii
+                    vulnerabili (art.55, pct. m) si t) din Regulament)
+                  </li>
+                </ul>
+                <div>
+                  Pentru lucrările de dezvoltare, retehnologizare şi mentenanţă,
+                  operatorul de distribuție va stabili, împreună cu
+                  utilizatorii, o programare convenabilă pentru ambele părţi.
+                </div>
+              </div>
+              <div class="legal_reference_data">(art.12 din Standard)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title"></div>
+            <div class="data_section_content">
+              <div>
+                Este interzisă deconectarea de la reţeaua electrică aclienţilor
+                vulnerabili inclusiv în situaţii de criză de energie.
+              </div>
+              <div class="legal_reference_data">
+                (art. 64 alin. (3) din Lege)
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title"></div>
+            <div class="data_section_content">
+              <div>
+                <div>Legislatie aplicabila:</div>
+                <ul>
+                  <li>
+                    <div>
+                      Legea energiei electrice și gazelor naturale nr.123/2012,
+                      cu modificările și completările ulterioare
+                    </div>
+                    <div class="legal_reference_data">("Legea")</div>
+                  </li>
+                  <li>
+                    <div>
+                      Regulamentul de furnizarea energiei electrice la clienţii
+                      finali aprobat prin Ordinul presedintelui ANRE nr.64/2014
+                    </div>
+                    <div class="legal_reference_data">("Regulament")</div>
+                  </li>
+                  <li>
+                    <div>
+                      Standard de performanţă pentru serviciul de distribuţie a
+                      energiei electrice aprobat prin Ordinul presedintelui ANRE
+                      nr. 11 din 30 martie 2016
+                    </div>
+                    <div class="legal_reference_data">("Standard")</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="padded-container">
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title">
+              Eticheta energiei electrice furnizata clientilor finali in anul
+              2018
+            </div>
+            <div class="data_section_content">
+              <div class="template-element-1-wrapper">
+                <div class="template-element-1">
+                  <div class="template-element-1-tilte">Furnizor</div>
+                  <div class="template-element-1-subtitle">
+                    SC GETICA 95 COM SRL
+                  </div>
+                </div>
+                <div class="template-element-1">
+                  <div class="template-element-1-tilte">Telefon/Fax</div>
+                  <div class="template-element-1-subtitle">
+                    0737 665 234
+                  </div>
+                </div>
+                <div class="template-element-1">
+                  <div class="template-element-1-tilte">Email</div>
+                  <div class="template-element-1-subtitle">
+                    office@getica95.ro
+                  </div>
+                </div>
+                <div class="template-element-1">
+                  <div class="template-element-1-tilte">Web site</div>
+                  <div class="template-element-1-subtitle">
+                    www.getica95.ro
+                  </div>
+                </div>
+                <div class="template-element-1">
+                  <div class="template-element-1-tilte">
+                    Periada de referinta
+                  </div>
+                  <div class="template-element-1-subtitle">01.01.2018</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper data_section_warpper_reverse">
+            <div class="data_section_title data_section_title_reverse">
+              Energie electrica furnizata de SC GETICA 95 COM SRL
+            </div>
+            <div class="data_section_content">
+              <div style="flex-direction: row; display: flex;">
+                <div style="flex: 1;"></div>
+                <div style="flex: 2;">
+                  <!-- Table component -->
+                  <!-- Table component -->
+                  <div
+                    id="template_table"
+                    class="table-wrapper"
+                    style="box-shadow: none;"
+                  >
+                    <!-- Table body -->
+                    <table style="width: 100%;">
+                      <thead>
+                        <tr class="table_header">
+                          <th style="font-size: 1rem;">
+                            Sursa principala de energie
+                          </th>
+                          <th style="font-size: 1rem;">
+                            Energia electrica a furnizorului SC GETICA 95 COM
+                            SRL
+                          </th>
+                          <th style="font-size: 1rem;">
+                            Productie energie electrica Romania in anul 2018
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="template_first_row">
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            Surse conventionale
+                          </td>
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            85.07
+                          </td>
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            58.123
+                          </td>
+                        </tr>
+                        <tr class="template_last_row">
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            Carbune
+                          </td>
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            123.2
+                          </td>
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            44.22
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- Table footer -->
+                  </div>
+                </div>
+              </div>
+              <div>
+                0% din energia comercializata de furnizorul SC GETICA 95 COM SRL
+                provine din import si este cuprinsa in detalierea de mai sus
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper data_section_warpper_reverse">
+            <div class="data_section_title data_section_title_reverse">
+              Impactul asupra mediului
+            </div>
+            <div class="data_section_content">
+              <div style="flex-direction: row; display: flex;">
+                <div style="flex: 1;"></div>
+                <div style="flex: 2;">
+                  <!-- Table component -->
+                  <div
+                    id="template_table"
+                    class="table-wrapper"
+                    style="box-shadow: none;"
+                  >
+                    <!-- Table body -->
+                    <table style="width: 100%;">
+                      <thead>
+                        <tr class="table_header">
+                          <th style="font-size: 1rem;">Raportat la</th>
+                          <th style="font-size: 1rem;">Emisii de CO2</th>
+                          <th style="font-size: 1rem;">
+                            Deseuri radioactive
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="template_first_row">
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            SC GETICA 95 COM SRL
+                          </td>
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            558.33g/kWh
+                          </td>
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            0.0006g/kWh
+                          </td>
+                        </tr>
+                        <tr class="template_last_row">
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            Romania
+                          </td>
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            558.33g/kWh
+                          </td>
+                          <td class="template_2" style="font-size: 1.2rem;">
+                            0.0006g/kWh
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- Table footer -->
+                  </div>
+                </div>
+              </div>
+              <div>
+                Conform Orinului ANRE nr. 61/2016 - Regulament de etichetare a
+                energiei electrice (www.anre.ro)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="padded-container" style="background: white;">
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title">
+              Note de informare privind protectia datelor personale
+            </div>
+            <div class="data_section_content">
+              <div>
+                Începând cu data de 25 mai 2018, datele cu caracter personal
+                sunt colectate şi prelucrate în conformitate cu dispoziţiile
+                Regulamentului U.E. nr. 679/2016 privind protecţia persoanelor
+                fizice în ceea ce priveşte prelucrarea datelor cu caracter
+                personal şi privind libera circulaţie a acestor date şi de
+                abrogarea Directivei 95/46/CE, acestea fiind folosite în scopul
+                îndeplinirii obligaţiilor legale stabilite în sarcina
+                furnizorului, respectiv cele necesare pentru realizarea
+                obiectului principal de activitate şi/ sau a altor obligaţii
+                conexe. Pentru detalii în ceea ce priveşte operaţiunile de
+                prelucrare de date cu caracter personal de către GETICA 95 COM
+                SRL accesaţi site-ul <a>www.getica95.ro</a>, secţiunea ”Date cu
+                caracter personal”, sau vă puteţi adresa direct
+                <a>dpo@getica95.ro</a>
+              </div>
+              <div>
+                Vă rugăm să nu permiteţi accesul unor persoane neautorizate la
+                echipamentul de măsurare a energiei electrice! Efectuarea de
+                intervenţii, modificări neautorizate la contorul electronic este
+                strict interzisă, potrivit legii şi contractului dvs. de
+                furnizare a energiei electrice, faptă constituind infracţiune,
+                pedepsită conform dispoziţiilor Legii nr. 123/2012. Totodată,
+                accesul fără drept la un sistem informatic, în speţă contorul
+                electronic, constituie infracţiune şi se pedepseşte potrivit
+                dispoziţiilor Codului Penal.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="padded-container" style="background: white;">
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title">
+              Adresa de instiintare a consumatorilor privind pericolului la care
+              se expun nerespectand distanta de vecinatate fata de instalatiile
+              electrice aflate sub tensiune
+            </div>
+            <div class="data_section_content">
+              <div>
+                Nerespectarea zonelor de protecţie şi de siguranţă prezintă
+                riscuri pentru siguranţa persoanelor şi a bunurilor din
+                apropierea instalațiilor electrice
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title"></div>
+            <div class="data_section_content">
+              <div>
+                Acestea pot pune în pericol viața sau integritatea fizică a
+                persoanelor şi/sau a bunurilor din apropiere, prin:
+              </div>
+              <ul style="margin-top: 15px;">
+                <li>
+                  explozii/incendii ale componentelor instalațiilor electrice;
+                </li>
+                <li>
+                  emisii nocive de gaze, lichide, vapori, pulberi, aerosoli,
+                  radiaţii, electricitate statică;
+                </li>
+                <li>
+                  ruperea unor căi de curent care poate duce la electrocutare;
+                </li>
+                <li>
+                  răspândirea de reziduuri nocive (cenuşă, ape poluante, gaze de
+                  ardere);
+                </li>
+                <li>
+                  ruperea şi/sau proiectarea la distanţă a unor părţi de
+                  construcţii sau instalaţii;
+                </li>
+                <li>zgomot peste limitele admise</li>
+                <li>accidente sau avarii la construcţiile energetice</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title"></div>
+            <div class="data_section_content">
+              <div>
+                Totodată, conform legislației în vigoare1 este interzisă
+                înființarea culturilor sau plantațiilor în zona de siguranță a
+                rețelelor electrice de distribuție fără acordul operatorului de
+                rețea.
+              </div>
+              <div>
+                Subliniem faptul că împiedicarea reprezentanților operatorului
+                de rețea de a executa defrișarea ori decoronarea vegetației
+                pentru crearea şi menţinerea distanţei regulamentare faţă de
+                reţelele electrice constituie contravenție2 și se sancționează
+                cu amendă.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title"></div>
+            <div class="data_section_content">
+              <div>
+                Sunt interzise următoarele acțiuni în imediata vecinătate a
+                rețelelor electrice aeriene:
+              </div>
+              <ul style="margin-top: 15px;">
+                <li>
+                  tăierea sau tunderea pomilor fără acordul operatorului de
+                  rețea
+                </li>
+                <li>
+                  parcarea utilajelor și mașinilor agricole sau depozitarea
+                  materialelor;
+                </li>
+                <li>
+                  realizarea unor construcții improvizate sau forarea puțurilor
+                  de apă;
+                </li>
+                <li>organizarea unor întruniri sau jocuri sportive;</li>
+                <li>
+                  incendierea miriștilor, a vegetației uscate și a resturilor
+                  vegetale de pe terenuri agricole;
+                </li>
+                <li>pescuirea în locuri care nu sunt special amenajate;</li>
+                <li>
+                  deplasarea sau manevrarea utilajelor, sculelor, uneltelor (de
+                  transport, de pescuit, săpat, etc.) sau a altor elemente de
+                  dimensiuni mari care pot atinge conductoarele rețelelor
+                  electrice, chiar daca acestea sunt considerate izolante.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title"></div>
+            <div class="data_section_content">
+              <div>
+                Totodată, pentru evitarea pericolului pe care îl poate prezenta
+                dezvoltarea vegetaţiei în apropierea liniilor electrice
+                recomandăm plantarea ierburilor perene sau acoperirea spaţiului
+                corespunzător cu balast.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="padded-container" style="background: white;">
+        <!-- Data section -->
+        <div class="data_section_wrapper">
+          <div class="data_section_title">IMPORTANT</div>
+          <div class="data_section_content">
+            <div class="information-component-wrapper">
+              <div class="left-information-banner"></div>
+              <div>
+                <div>
+                  Vă rugăm să nu permiteţi accesul unor persoane neautorizate la
+                  echipamentul de măsurare a energiei electrice! Efectuarea de
+                  intervenţii, modificări neautorizate la contorul electronic
+                  este strict interzisă, potrivit legii şi contractului dvs. de
+                  furnizare a energiei electrice, faptă constituind infracţiune,
+                  pedepsită conform dispoziţiilor Legii nr. 123/2012, cu
+                  completarile şi modificările ulterioare. Totodată, accesul
+                  fără drept la un sistem informatic, în speţă contorul
+                  electronic, constituie infracţiune şi se pedepseşte potrivit
+                  dispoziţiilor Codului Penal
+                </div>
+                <div style="font-style: italic; color: #808080;">
+                  "Conform Standardului de performanta pentru serviciul de
+                  distributie a energiei electrice, termenele maxime de
+                  realimentare cu energie electrica sunt: 4 ore in municipiile
+                  resedinta de judet, 6 ore in mediul urban si 12 ore in mediul
+                  rural. In cazul in care nu poate fi permis accesul pentru
+                  remediere in intervalul mentionat, va rugam sa nu transmiteti
+                  deficienta electrica si sa reveniti cu un nou apel."
+                </div>
+                <div class="legal_reference_data">
+                  (art. 64 alin. (3) din Lege)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="padded-container" style="background: white;">
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title">
+              Factura de regularizare conform contract numar 571/11.06.2019
+            </div>
+            <div class="data_section_content">
+              <div class="template-element-1-wrapper">
+                <div class="template-element-1">
+                  <div class="template-element-1-tilte">De la data</div>
+                  <div class="template-element-1-subtitle">21/05/1998</div>
+                </div>
+                <div class="template-element-1">
+                  <div class="template-element-1-tilte">Pana la data</div>
+                  <div class="template-element-1-subtitle">21/05/1998</div>
+                </div>
+                <div class="template-element-1">
+                  <div class="template-element-1-tilte">Scadenta factura</div>
+                  <div class="template-element-1-subtitle">21/05/1998</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title"></div>
+            <div class="data_section_content">
+              <!-- Simple table component -->
+              <div
+                id="template_table"
+                class="table-wrapper"
+                style="margin-bottom: 4rem; margin-top: -2rem;"
+              >
+                <!-- Table title -->
+                <div class="table-render-title-wrapper">
+                  <div class="table-render-title-title">
+                    Example title
+                    <span class="span1">&#8226;</span>
+                    <span class="span2">POD: 1980518297331</span>
+                  </div>
+                  <div class="table-render-title-subtitle">
+                    Example description
+                  </div>
+                </div>
+
+                <!-- Table body -->
+                <table style="width: 100%;">
+                  <thead>
+                    <tr class="table_header">
+                      <th style="font-size: 1.3rem;">nr. crit.</th>
+                      <th style="font-size: 1.3rem;">
+                        denumirea produselor sau a serviciilor
+                      </th>
+                      <th style="font-size: 1.3rem;">u.m.</th>
+                      <th style="font-size: 1.3rem;">cantitate</th>
+                      <th style="font-size: 1.3rem;">pret unitar</th>
+                      <th style="font-size: 1.3rem;">valoare</th>
+                      <th style="font-size: 1.3rem;">valoare TVA</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="template_first_row">
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                    </tr>
+                    <tr class="template_last_row">
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.4rem;">Row</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="padded-container">
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper">
+            <div class="data_section_title">Proces verbal de consum</div>
+            <div class="data_section_content">
+              <div style="margin-top: -15px; color: gray;">
+                Numar contract:
+                <span style="color: black; font-weight: bold;">
+                  571/11.06.2019
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data section -->
+        <div class="data-section">
+          <div class="data_section_wrapper data_section_warpper_reverse">
+            <div class="data_section_title data_section_title_reverse">
+              1.DRUMUL Murgului, Nr. FN, Bl. 56, Loc. SECTOR 3, Jud. BUCURESTI
+            </div>
+            <div class="data_section_content">
+              <div class="template-element-1-wrapper">
+                <div class="template-element-1">
+                  <div class="template-element-1-tilte">Partenter</div>
+                  <div class="template-element-1-subtitle">
+                    Municipiul Bucuresti
+                  </div>
+                </div>
+                <div class="template-element-1">
+                  <div class="template-element-1-tilte">Cod POD</div>
+                  <div class="template-element-1-subtitle">
+                    RO001E119912180
+                  </div>
+                </div>
+                <div class="template-element-1">
+                  <div class="template-element-1-tilte">Nivel tensiune</div>
+                  <div class="template-element-1-subtitle">JT</div>
+                </div>
+              </div>
+
+              <div
+                id="template_table"
+                class="table-wrapper"
+                style="margin-top: 3rem; box-shadow: none;"
+              >
+                <!-- Table body -->
+                <table style="width: 100%;">
+                  <thead>
+                    <tr class="table_header">
+                      <th style="font-size: 1rem;">serie</th>
+                      <th style="font-size: 1rem;">constanta</th>
+                      <th style="font-size: 1rem;">de la</th>
+                      <th style="font-size: 1rem;">pana la</th>
+                      <th style="font-size: 1rem;">tip</th>
+                      <th style="font-size: 1rem;">initial</th>
+                      <th style="font-size: 1rem;">final</th>
+                      <th style="font-size: 1rem;">mwh</th>
+                      <th style="font-size: 1rem;">initial</th>
+                      <th style="font-size: 1rem;">final</th>
+                      <th style="font-size: 1rem;">kwarh</th>
+                      <th style="font-size: 1rem;">initial</th>
+                      <th style="font-size: 1rem;">final</th>
+                      <th style="font-size: 1rem;">kwarh</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="template_first_row">
+                      <td class="template_2" style="font-size: 1.1rem;">
+                        11G14570110022732n
+                      </td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                    </tr>
+                    <tr class="template_last_row">
+                      <td class="template_2" style="font-size: 1.1rem;">
+                        11G14570110022732n
+                      </td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                      <td class="template_2" style="font-size: 1.1rem;">Row</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- bootstrap 4 scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
