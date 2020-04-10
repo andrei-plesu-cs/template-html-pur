@@ -11,6 +11,14 @@ body {
   background-color: white;
 }
 
+.logo-title {
+  text-align: left;
+  font: Bold 35px/21px Kanit;
+  letter-spacing: 9px;
+  color: #003965;
+  opacity: 1;
+}
+
 .padded-container {
   background: #eff3f6;
   padding: 4% 10%;
@@ -19,6 +27,15 @@ body {
 
 .invoice-header {
   padding: 1rem;
+}
+
+.template_main_logo {
+  display: flex;
+  margin-top: -75px;
+  flex-direction: column;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
 }
 
 .invoice-header-inner {
