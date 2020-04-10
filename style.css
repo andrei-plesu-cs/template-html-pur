@@ -199,8 +199,17 @@ body {
 #template_table th {
   padding: 1rem 1rem;
   color: #00466c;
-  font-size: 0.8vw !important;
   font-family: "Kanit", sans-serif;
+}
+
+.smaller-table th {
+  color: #00466c;
+  font-size: 0.8vw !important;
+}
+
+.bigger-table th {
+  color: #00466c;
+  font-size: 1rem !important;
 }
 
 .template_first_row td {
@@ -218,6 +227,13 @@ body {
 
 #template_table td {
   padding: 0.6rem 1rem;
+}
+
+.bigger-table td {
+  font-size: 1.2rem !important;
+}
+
+.smaller-table td {
   font-size: 0.8vw !important;
 }
 
